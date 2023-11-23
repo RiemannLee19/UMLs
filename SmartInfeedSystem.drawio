@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T09:39:40.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MU8G3_cyihufdvrQ_PE8" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T09:40:30.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uKwPiIY-Ox0K-dszMq2P" version="22.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1195" dy="1022" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,7 +475,7 @@
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-43" value="&lt;b&gt;CalcGradientStartingPoint&lt;/b&gt;(): m&lt;sub&gt;0&lt;/sub&gt; = |camSegment.VStart / V&lt;sub&gt;scale&lt;/sub&gt;|" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
           <mxGeometry y="294" width="581" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TG3gtnt5EF_iq5fIFMWk-4" value="&lt;b&gt;CalcGradientStartingPoint&lt;/b&gt;(), &lt;b&gt;CalcGradientEndPoint&lt;/b&gt;()," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
+        <mxCell id="TG3gtnt5EF_iq5fIFMWk-4" value="&lt;b&gt;CalcGradientEndPoint&lt;/b&gt;(): m&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;1&lt;/sub&gt;&amp;nbsp;= |camSegment.VEnd / V&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;|" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
           <mxGeometry y="320" width="581" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-46" value="&lt;b&gt;CalcCurvatureStartingPoint&lt;/b&gt;(), &lt;b&gt;CalcCurvatureEndPoint&lt;/b&gt;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
