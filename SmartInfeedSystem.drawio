@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T09:43:34.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WaoKsXCeYo4R8dYuBxXD" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T09:45:34.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KWUwlVAjL06Z0J2oNgN9" version="22.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="956" dy="1297" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="1795" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -437,64 +437,64 @@
           <mxGeometry y="398" width="500" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-33" value="CamGeneralLaw.cs" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1721" y="-460" width="689" height="502" as="geometry" />
+          <mxGeometry x="1749" y="-418" width="644" height="502" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-37" value="X&lt;sub&gt;scale&lt;/sub&gt;, Y&lt;sub&gt;scale&lt;/sub&gt;, V&lt;sub&gt;scale&lt;/sub&gt;, A&lt;sub&gt;scale&lt;/sub&gt;, J&lt;sub&gt;scale&lt;br&gt;&lt;/sub&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="26" width="689" height="26" as="geometry" />
+          <mxGeometry y="26" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-34" value="m&lt;sub&gt;0&lt;/sub&gt;, m&lt;sub&gt;1&lt;/sub&gt;: gradient in point p&lt;sub&gt;0&lt;/sub&gt;(x&lt;sub&gt;0&lt;/sub&gt;|y&lt;sub&gt;0&lt;/sub&gt;), p&lt;sub&gt;1&lt;/sub&gt;(x&lt;sub&gt;1&lt;/sub&gt;|y&lt;sub&gt;1&lt;/sub&gt;)&lt;sub&gt;&lt;br&gt;&lt;/sub&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="52" width="689" height="26" as="geometry" />
+          <mxGeometry y="52" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-38" value="k&lt;sub&gt;0&lt;/sub&gt;, k&lt;sub&gt;1&lt;/sub&gt;: curvature in point p&lt;sub&gt;0&lt;/sub&gt;(x&lt;sub&gt;0&lt;/sub&gt;|y&lt;sub&gt;0&lt;/sub&gt;), p&lt;sub&gt;1&lt;/sub&gt;(x&lt;sub&gt;1&lt;/sub&gt;|y&lt;sub&gt;1&lt;/sub&gt;)&lt;sub&gt;&lt;br&gt;&lt;/sub&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="78" width="689" height="26" as="geometry" />
+          <mxGeometry y="78" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="104" width="689" height="8" as="geometry" />
+          <mxGeometry y="104" width="644" height="8" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-36" value="&lt;b&gt;CalculateSegment&lt;/b&gt;(segment)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="112" width="689" height="26" as="geometry" />
+          <mxGeometry y="112" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-40" value="&lt;b&gt;NormalizeInputData&lt;/b&gt;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="138" width="689" height="26" as="geometry" />
+          <mxGeometry y="138" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-41" value="&lt;b&gt;CalcDeltaX&lt;/b&gt;(): X&lt;sub&gt;scale&lt;/sub&gt; = camSegment.XEnd - camSegment.XStart" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="164" width="689" height="26" as="geometry" />
+          <mxGeometry y="164" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TG3gtnt5EF_iq5fIFMWk-0" value="&lt;b&gt;CalcDeltaY&lt;/b&gt;(): Y&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;= camSegment.YEnd - camSegment.YStart" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="190" width="689" height="26" as="geometry" />
+          <mxGeometry y="190" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-42" value="&lt;b&gt;CalcVelocityScaling&lt;/b&gt;(): V&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;=&amp;nbsp; Y&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;/ X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="216" width="689" height="26" as="geometry" />
+          <mxGeometry y="216" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TG3gtnt5EF_iq5fIFMWk-2" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;CalcAccelerationScaling&lt;/b&gt;(): A&lt;sub&gt;Scale&lt;/sub&gt; =&amp;nbsp; Y&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;/ X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;/ X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="242" width="689" height="26" as="geometry" />
+          <mxGeometry y="242" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TG3gtnt5EF_iq5fIFMWk-1" value="&lt;b&gt;CalcJerkScaling&lt;/b&gt;(): A&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;Scale&lt;/sub&gt;&amp;nbsp;=&amp;nbsp; Y&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;/ X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;/ X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;/ X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="268" width="689" height="26" as="geometry" />
+          <mxGeometry y="268" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-43" value="&lt;b&gt;CalcGradientStartingPoint&lt;/b&gt;(): m&lt;sub&gt;0&lt;/sub&gt; = |camSegment.VStart / V&lt;sub&gt;scale&lt;/sub&gt;|" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="294" width="689" height="26" as="geometry" />
+          <mxGeometry y="294" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TG3gtnt5EF_iq5fIFMWk-4" value="&lt;b&gt;CalcGradientEndPoint&lt;/b&gt;(): m&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;1&lt;/sub&gt;&amp;nbsp;= |camSegment.VEnd / V&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;|" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="320" width="689" height="26" as="geometry" />
+          <mxGeometry y="320" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-46" value="&lt;b&gt;CalcCurvatureStartingPoint&lt;/b&gt;(): k&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;0&lt;/sub&gt;&amp;nbsp;= |camSegment.AStart / A&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;|" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="346" width="689" height="26" as="geometry" />
+          <mxGeometry y="346" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TG3gtnt5EF_iq5fIFMWk-5" value="&lt;b&gt;CalcCurvatureStartingPoint&lt;/b&gt;(): k&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;1&lt;/sub&gt;&amp;nbsp;= |camSegment.AEnd / A&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;|" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="372" width="689" height="26" as="geometry" />
+          <mxGeometry y="372" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-44" value="&lt;b&gt;UnSymFunction&lt;/b&gt;(): x[i] = (camSegment.X[i] - XStart) / X&lt;sub&gt;scale&lt;/sub&gt;, camSegment.Y[i] = camSegment.YStart + Y&lt;sub&gt;scale&lt;/sub&gt; * f(x)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="d-hZ3jwBHdceiBEyUTI2-33" vertex="1">
-          <mxGeometry y="398" width="689" height="26" as="geometry" />
+          <mxGeometry y="398" width="644" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TG3gtnt5EF_iq5fIFMWk-7" value="&lt;b&gt;UnsymFunction&#39;&lt;/b&gt;(): x[i] = (camSegment.X[i] - XStart) / X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;, camSegment.Y[i] = camSegment.YStart + Y&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;* f(x)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="424" width="689" height="26" as="geometry" />
+        <mxCell id="TG3gtnt5EF_iq5fIFMWk-7" value="&lt;b&gt;UnsymFunction&#39;&lt;/b&gt;(): x[i] = (camSegment.X[i] - XStart) / X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;, camSegment.Y[i] = V&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;* f&#39;(x)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
+          <mxGeometry y="424" width="644" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TG3gtnt5EF_iq5fIFMWk-8" value="&lt;b&gt;UnSymFunction&lt;/b&gt;(), &lt;b&gt;UnsymFunction&#39;&lt;/b&gt;(), &lt;b&gt;UnsymFunction&#39;&#39;&lt;/b&gt;(), &lt;b&gt;UnsymFunction&#39;&#39;&#39;&lt;/b&gt;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="450" width="689" height="26" as="geometry" />
+        <mxCell id="TG3gtnt5EF_iq5fIFMWk-8" value="&lt;b&gt;UnsymFunction&#39;&#39;&lt;/b&gt;(): x[i] = (camSegment.X[i] - XStart) / X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;, camSegment.Y[i] = A&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;* f&#39;&#39;(x)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
+          <mxGeometry y="450" width="644" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TG3gtnt5EF_iq5fIFMWk-6" value="&lt;b&gt;UnSymFunction&lt;/b&gt;(), &lt;b&gt;UnsymFunction&#39;&lt;/b&gt;(), &lt;b&gt;UnsymFunction&#39;&#39;&lt;/b&gt;(), &lt;b&gt;UnsymFunction&#39;&#39;&#39;&lt;/b&gt;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
-          <mxGeometry y="476" width="689" height="26" as="geometry" />
+        <mxCell id="TG3gtnt5EF_iq5fIFMWk-6" value="&lt;b&gt;UnsymFunction&#39;&#39;&#39;&lt;/b&gt;(): x[i] = (camSegment.X[i] - XStart) / X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;, camSegment.Y[i] = J&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;scale&lt;/sub&gt;&amp;nbsp;* f&#39;&#39;&#39;(x)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-hZ3jwBHdceiBEyUTI2-33">
+          <mxGeometry y="476" width="644" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d-hZ3jwBHdceiBEyUTI2-59" value="GeneralLaw.cs" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2439" y="-208" width="500" height="268" as="geometry" />
