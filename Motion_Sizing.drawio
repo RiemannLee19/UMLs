@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T07:40:52.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="uKov2CvhRf92gNd3Uixz" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T08:46:53.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Nnp2PJBHLGkMSfsZ1AqR" version="24.2.3" type="github">
   <diagram name="Page-1" id="EHrEFTinhFLgnicq1KQY">
     <mxGraphModel dx="1509" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -160,38 +160,41 @@
         <mxCell id="AmN6tO1Q4sI-qgZyygm_-26" value="forceViscous&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-16">
           <mxGeometry y="296" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-27" value="Conveyor Belt Mechanism" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="720" y="600" width="280" height="326" as="geometry" />
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-27" value="Crank Mechanism" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="600" width="280" height="356" as="geometry" />
         </mxCell>
         <mxCell id="AmN6tO1Q4sI-qgZyygm_-28" value="unit&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="26" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-29" value="diameter Driver Pulley&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-29" value="radius&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="56" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-30" value="massLoad&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-32" value="pushRod&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="86" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-31" value="massBelt&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-33" value="xStart&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="116" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-32" value="inertiaDriverPulley&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-39" value="offset&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="146" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-33" value="inertiaIdlerRollers&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-30" value="massLoad&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="176" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-34" value="inclinationAngle&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-31" value="massRack&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="206" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-35" value="forceStatic&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-34" value="inertiaAddtional&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="236" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-36" value="forceFriction&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-35" value="forceStatic&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="266" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AmN6tO1Q4sI-qgZyygm_-37" value="forceViscous&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-36" value="forceFriction&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
           <mxGeometry y="296" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AmN6tO1Q4sI-qgZyygm_-37" value="forceViscous&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="AmN6tO1Q4sI-qgZyygm_-27">
+          <mxGeometry y="326" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
