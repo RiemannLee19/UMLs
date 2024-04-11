@@ -1,17 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T12:33:29.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kuzEI2cTSIF6lasdrUy0" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T13:02:42.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="497tt7rS45bm1Nlxha8b" version="24.2.3" type="github">
   <diagram name="Seite-1" id="nDi9Gie_VPJCrlSmQJZp">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZfBndgUZdbE_Ebc2dArC-1" value="Density Kernel" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="280" y="120" width="160" height="86" as="geometry" />
+        <mxCell id="ZfBndgUZdbE_Ebc2dArC-1" value="FluidSim2D.compute" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="720" y="400" width="430" height="356" as="geometry" />
         </mxCell>
-        <mxCell id="ZfBndgUZdbE_Ebc2dArC-2" value="SpikyKernelPow2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="ZfBndgUZdbE_Ebc2dArC-1" vertex="1">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        <mxCell id="ZfBndgUZdbE_Ebc2dArC-2" value="float CalculateDensity(pos)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="ZfBndgUZdbE_Ebc2dArC-1" vertex="1">
+          <mxGeometry y="26" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZfBndgUZdbE_Ebc2dArC-4" value="(r-d)&lt;sup&gt;2&lt;/sup&gt; * 6 / pi*r^4&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="ZfBndgUZdbE_Ebc2dArC-1" vertex="1">
-          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        <mxCell id="ZfBndgUZdbE_Ebc2dArC-4" value="float PressureFromDensity&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="ZfBndgUZdbE_Ebc2dArC-1" vertex="1">
+          <mxGeometry y="56" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-11" value="float NearPressureFromDensity&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="86" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-12" value="float ExternalForces" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="116" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-13" value="void HandleCollisions" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="146" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-19" value="void ExternalForces&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="176" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-14" value="void UpdateSpatialHash&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="206" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-18" value="void CalculateDensities&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="236" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-15" value="void CalculatePressureForce&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="266" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-16" value="void CalculateViscosity" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="296" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-17" value="void UpdatePositions" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="ZfBndgUZdbE_Ebc2dArC-1">
+          <mxGeometry y="326" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EBgQpZgXDAFh3XMOeZok-1" value="Near Density Kernel" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="480" y="120" width="160" height="86" as="geometry" />
@@ -19,26 +46,53 @@
         <mxCell id="EBgQpZgXDAFh3XMOeZok-2" value="SpikyKernelPow3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="EBgQpZgXDAFh3XMOeZok-1" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EBgQpZgXDAFh3XMOeZok-3" value="(r-d)&lt;sup&gt;3&lt;/sup&gt; * 10 / pi*r^5&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="EBgQpZgXDAFh3XMOeZok-1" vertex="1">
+        <mxCell id="EBgQpZgXDAFh3XMOeZok-3" value="(r-d)&lt;sup&gt;3&lt;/sup&gt; * 10 / pi*r&lt;sup&gt;5&lt;/sup&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="EBgQpZgXDAFh3XMOeZok-1" vertex="1">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NHrgPuDFRJz84GVL5nHD-4" value="Density Derivative" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="NHrgPuDFRJz84GVL5nHD-4" value="Density Derivative" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="240" width="200" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="NHrgPuDFRJz84GVL5nHD-5" value="SpikyKernelPow2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="NHrgPuDFRJz84GVL5nHD-4">
+        <mxCell id="NHrgPuDFRJz84GVL5nHD-5" value="DerivativeSpikyKernelPow2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="NHrgPuDFRJz84GVL5nHD-4" vertex="1">
           <mxGeometry y="26" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NHrgPuDFRJz84GVL5nHD-6" value="(r-d)&lt;sup&gt;2&lt;/sup&gt; * 6 / pi*r^4&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="NHrgPuDFRJz84GVL5nHD-4">
+        <mxCell id="NHrgPuDFRJz84GVL5nHD-6" value="-(r-d)&amp;nbsp;* 12 / pi*r&lt;sup&gt;4&lt;/sup&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="NHrgPuDFRJz84GVL5nHD-4" vertex="1">
           <mxGeometry y="56" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NHrgPuDFRJz84GVL5nHD-7" value="Near Density Derivative" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="NHrgPuDFRJz84GVL5nHD-7" value="Near Density Derivative" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="520" y="240" width="200" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="NHrgPuDFRJz84GVL5nHD-8" value="SpikyKernelPow3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="NHrgPuDFRJz84GVL5nHD-7">
+        <mxCell id="NHrgPuDFRJz84GVL5nHD-8" value="DerivativeSpikyKernelPow3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="NHrgPuDFRJz84GVL5nHD-7" vertex="1">
           <mxGeometry y="26" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NHrgPuDFRJz84GVL5nHD-9" value="(r-d)&lt;sup&gt;3&lt;/sup&gt; * 10 / pi*r^5&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="NHrgPuDFRJz84GVL5nHD-7">
+        <mxCell id="NHrgPuDFRJz84GVL5nHD-9" value="-(r-d)&lt;sup&gt;2&lt;/sup&gt; * 30 / pi*r&lt;sup&gt;5&lt;/sup&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="NHrgPuDFRJz84GVL5nHD-7" vertex="1">
           <mxGeometry y="56" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-1" value="Viscocity Kernel" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-2" value="Smoothing Kernel Poly 6" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5Rdcu3Lo1_ZV7bLhdtTE-1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-3" value="(r&lt;sup&gt;2&lt;/sup&gt;-d&lt;sup&gt;2&lt;/sup&gt;)&lt;sup&gt;3&lt;/sup&gt; * 4 / pi*r&lt;sup&gt;8&lt;/sup&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5Rdcu3Lo1_ZV7bLhdtTE-1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-5" value="FluidMaths2D.hlsl" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="400" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-6" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; text-align: center; text-wrap: nowrap;&quot;&gt;Density Kernel:&amp;nbsp;&lt;/span&gt;SpikyKernelPow2, (r-d)&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;* 6 / pi*r&lt;sup&gt;4&lt;/sup&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5Rdcu3Lo1_ZV7bLhdtTE-5">
+          <mxGeometry y="26" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-9" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; text-align: center; text-wrap: nowrap;&quot;&gt;Density Derivative:&amp;nbsp;&lt;/span&gt;DerivativeSpikyPow2, -(r-d)&amp;nbsp;* 12 / pi*r&lt;sup&gt;4&lt;/sup&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5Rdcu3Lo1_ZV7bLhdtTE-5">
+          <mxGeometry y="56" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-8" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; text-align: center; text-wrap: nowrap;&quot;&gt;Near Density Kernel:&amp;nbsp;&lt;/span&gt;SpikyKernelPow3, (r-d)&lt;sup&gt;3&lt;/sup&gt;&amp;nbsp;* 10 / pi*r&lt;sup&gt;5&lt;/sup&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5Rdcu3Lo1_ZV7bLhdtTE-5">
+          <mxGeometry y="86" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-10" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; text-align: center; text-wrap: nowrap;&quot;&gt;Near Density Derivative:&amp;nbsp;&lt;/span&gt;DerivativeSpikyPow3, -(r-d)&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;* 30 / pi*r&lt;sup&gt;5&lt;/sup&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5Rdcu3Lo1_ZV7bLhdtTE-5">
+          <mxGeometry y="116" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Rdcu3Lo1_ZV7bLhdtTE-7" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; text-align: center; text-wrap: nowrap;&quot;&gt;Viscocity Kernel:&amp;nbsp;&lt;/span&gt;SmoothingKernelPoly 6, (r&lt;sup&gt;2&lt;/sup&gt;-d&lt;sup&gt;2&lt;/sup&gt;)&lt;sup&gt;3&lt;/sup&gt;&amp;nbsp;* 4 / pi*r&lt;sup&gt;8&lt;/sup&gt;&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5Rdcu3Lo1_ZV7bLhdtTE-5">
+          <mxGeometry y="146" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
