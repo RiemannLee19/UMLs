@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T14:05:37.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="yPXpiw_cjmMiQQa1LCU_" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T08:18:44.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kWx3KBWWK7eTTmXdERQ5" version="24.6.4" type="github">
   <diagram name="Page-1" id="EHrEFTinhFLgnicq1KQY">
-    <mxGraphModel dx="2037" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -663,6 +663,27 @@
         </mxCell>
         <mxCell id="AmN6tO1Q4sI-qgZyygm_-240" value="gearEmergencyTorqueReserve&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="AmN6tO1Q4sI-qgZyygm_-234" vertex="1">
           <mxGeometry y="176" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c00T3FFedsTKfpMiwzY--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c00T3FFedsTKfpMiwzY--1" target="c00T3FFedsTKfpMiwzY--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c00T3FFedsTKfpMiwzY--1" value="Input Real Data&lt;div&gt;(json file which is generate by hand)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c00T3FFedsTKfpMiwzY--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c00T3FFedsTKfpMiwzY--2" target="c00T3FFedsTKfpMiwzY--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c00T3FFedsTKfpMiwzY--2" value="Web Server&lt;div&gt;(generate by hand)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1870" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c00T3FFedsTKfpMiwzY--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c00T3FFedsTKfpMiwzY--4" target="c00T3FFedsTKfpMiwzY--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c00T3FFedsTKfpMiwzY--4" value="Calcualted Result&lt;div&gt;(json file)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1870" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c00T3FFedsTKfpMiwzY--6" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1870" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
