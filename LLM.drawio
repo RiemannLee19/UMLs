@@ -392,7 +392,7 @@
         <mxCell id="tjBaxz1AtbUdlpxrV566-248" value="User selection" style="whiteSpace=wrap;html=1;" vertex="1" parent="tjBaxz1AtbUdlpxrV566-247">
           <mxGeometry x="85" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tjBaxz1AtbUdlpxrV566-249" value="Choose questions" style="whiteSpace=wrap;html=1;" vertex="1" parent="tjBaxz1AtbUdlpxrV566-247">
+        <mxCell id="tjBaxz1AtbUdlpxrV566-249" value="Choose among these questions" style="whiteSpace=wrap;html=1;" vertex="1" parent="tjBaxz1AtbUdlpxrV566-247">
           <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tjBaxz1AtbUdlpxrV566-250" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" parent="tjBaxz1AtbUdlpxrV566-247" source="tjBaxz1AtbUdlpxrV566-248" target="tjBaxz1AtbUdlpxrV566-249">
