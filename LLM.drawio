@@ -479,7 +479,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aqOJYriMutAaAsPxaJqA-33" value="New Loop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="278" y="1000" width="80" height="30" as="geometry" />
+          <mxGeometry x="210" y="1010" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
