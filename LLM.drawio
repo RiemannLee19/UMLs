@@ -644,8 +644,13 @@
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-47" value="LLMs" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="390" y="1186.5" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bFgOaYo5MmYKNW1yYCWf-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-51" target="bFgOaYo5MmYKNW1yYCWf-55">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bFgOaYo5MmYKNW1yYCWf-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-51" target="bFgOaYo5MmYKNW1yYCWf-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1300" />
+              <mxPoint x="950" y="1040" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-51" value="Proactive Suggestion&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="380" y="1270" width="90" height="60" as="geometry" />
@@ -667,14 +672,22 @@
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-56" value="Trigger" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=20.64;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;flipH=0;fillColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="268" y="1194.75" width="80" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="bFgOaYo5MmYKNW1yYCWf-55" value="Local Index" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1360" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-40" target="bFgOaYo5MmYKNW1yYCWf-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-24" target="bFgOaYo5MmYKNW1yYCWf-47">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bFgOaYo5MmYKNW1yYCWf-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-69" target="bFgOaYo5MmYKNW1yYCWf-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="618" y="1150" />
+              <mxPoint x="425" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bFgOaYo5MmYKNW1yYCWf-69" value="Local Index" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="588.25" y="1010" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
