@@ -484,11 +484,8 @@
         <mxCell id="1ieqDX-E3W4PUR27duya-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-1" target="1ieqDX-E3W4PUR27duya-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1ieqDX-E3W4PUR27duya-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-1" target="1ieqDX-E3W4PUR27duya-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-1" value="Knowledge Base" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="367" y="1050" width="202" height="180" as="geometry" />
+          <mxGeometry x="247" y="1060" width="202" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;" parent="bFgOaYo5MmYKNW1yYCWf-1" source="bFgOaYo5MmYKNW1yYCWf-37" target="bFgOaYo5MmYKNW1yYCWf-40" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -568,8 +565,11 @@
         <mxCell id="1ieqDX-E3W4PUR27duya-23" value="Prompt 1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.template;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1ieqDX-E3W4PUR27duya-21">
           <mxGeometry x="12.25" y="38.63" width="55.5" height="64.5" as="geometry" />
         </mxCell>
+        <mxCell id="1ieqDX-E3W4PUR27duya-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFgOaYo5MmYKNW1yYCWf-69" target="1ieqDX-E3W4PUR27duya-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-69" value="Local Index" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="708.75" y="1150" width="60" height="60" as="geometry" />
+          <mxGeometry x="708.75" y="1140" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
