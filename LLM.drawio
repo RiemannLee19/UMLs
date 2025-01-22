@@ -562,7 +562,7 @@
         <mxCell id="1ieqDX-E3W4PUR27duya-22" value="LLM 1" style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" parent="1ieqDX-E3W4PUR27duya-21" vertex="1">
           <mxGeometry x="5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z87HApm77n8g1gHxvvEt-1" value="Understanding&lt;br&gt;Prompt" style="shape=mxgraph.signs.healthcare.brain;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1ieqDX-E3W4PUR27duya-21" vertex="1">
+        <mxCell id="Z87HApm77n8g1gHxvvEt-1" value="Understanding&lt;br&gt;Project" style="shape=mxgraph.signs.healthcare.brain;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1ieqDX-E3W4PUR27duya-21" vertex="1">
           <mxGeometry x="10" y="36.54999999999988" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1ieqDX-E3W4PUR27duya-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bFgOaYo5MmYKNW1yYCWf-69" target="1ieqDX-E3W4PUR27duya-17" edge="1">
