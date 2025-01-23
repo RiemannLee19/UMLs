@@ -575,6 +575,14 @@
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-69" value="Knowledge Base" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="803.19" y="1109.68" width="87.75" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qbooU9UoFjID99h4peJY-16" value="Project Componet" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="537.75" y="1264" width="156.75" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="qbooU9UoFjID99h4peJY-17" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Key Words/Terms&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Poject Components&lt;/li&gt;&lt;li&gt;CAT Types&lt;/li&gt;&lt;/ul&gt;" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;align=left;" vertex="1" parent="qbooU9UoFjID99h4peJY-16">
+          <mxGeometry width="156.75" height="50" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qbooU9UoFjID99h4peJY-2" value="Mindmap" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
           <mxGeometry x="608.25" y="1500" width="420" height="126" as="geometry" />
         </mxCell>
@@ -604,14 +612,6 @@
         </mxCell>
         <mxCell id="qbooU9UoFjID99h4peJY-11" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="qbooU9UoFjID99h4peJY-2">
           <mxGeometry x="20" y="80" width="72" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="qbooU9UoFjID99h4peJY-16" value="Project Componet" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="537.75" y="1264" width="156.75" height="83" as="geometry" />
-        </mxCell>
-        <mxCell id="qbooU9UoFjID99h4peJY-17" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Key Words/Terms&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Poject Components&lt;/li&gt;&lt;li&gt;CAT Types&lt;/li&gt;&lt;/ul&gt;" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;align=left;" vertex="1" parent="qbooU9UoFjID99h4peJY-16">
-          <mxGeometry width="156.75" height="50" relative="1" as="geometry">
-            <mxPoint y="30" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="qbooU9UoFjID99h4peJY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qbooU9UoFjID99h4peJY-43" target="1ieqDX-E3W4PUR27duya-21">
           <mxGeometry relative="1" as="geometry">
