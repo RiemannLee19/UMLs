@@ -599,7 +599,7 @@
           <mxGeometry x="259.75" y="1189.68" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z77gv_-yLORl-nQfKJ2V-1" value="Proactive Sugggestion&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1450" width="116.75" height="79.99" as="geometry" />
+          <mxGeometry x="840" y="1250" width="116.75" height="79.99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
