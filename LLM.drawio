@@ -526,6 +526,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="419.75" y="1356.5" as="sourcePoint" />
             <mxPoint x="620" y="1348.6" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="396" y="1410" />
+              <mxPoint x="720" y="1410" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qbooU9UoFjID99h4peJY-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bFgOaYo5MmYKNW1yYCWf-52" target="qbooU9UoFjID99h4peJY-43" edge="1">
@@ -540,7 +544,7 @@
           <mxGeometry x="278" y="1070" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1ieqDX-E3W4PUR27duya-17" value="" style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=#666666;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="730" y="1284.25" width="234.13" height="131.75" as="geometry" />
+          <mxGeometry x="603.25" y="1257.35" width="234.13" height="131.75" as="geometry" />
         </mxCell>
         <mxCell id="1ieqDX-E3W4PUR27duya-18" value="&lt;font&gt;Agent 2: Technical Advisor&lt;/font&gt;" style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" parent="1ieqDX-E3W4PUR27duya-17" vertex="1">
           <mxGeometry x="7.5" width="215" height="30" as="geometry" />
@@ -573,10 +577,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFgOaYo5MmYKNW1yYCWf-69" value="Knowledge Base" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="803.19" y="1109.68" width="87.75" height="60" as="geometry" />
+          <mxGeometry x="676.44" y="1120" width="87.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qbooU9UoFjID99h4peJY-16" value="Project Componet" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="537.75" y="1264" width="156.75" height="83" as="geometry" />
+          <mxGeometry x="462.38" y="1420" width="156.75" height="83" as="geometry" />
         </mxCell>
         <mxCell id="qbooU9UoFjID99h4peJY-17" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Key Words/Terms&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Poject Components&lt;/li&gt;&lt;li&gt;CAT Types&lt;/li&gt;&lt;/ul&gt;" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;align=left;" parent="qbooU9UoFjID99h4peJY-16" vertex="1">
           <mxGeometry width="156.75" height="50" relative="1" as="geometry">
@@ -593,6 +597,9 @@
         </mxCell>
         <mxCell id="qbooU9UoFjID99h4peJY-43" value="" style="shape=collate;html=1;" parent="1" vertex="1">
           <mxGeometry x="259.75" y="1189.68" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z77gv_-yLORl-nQfKJ2V-1" value="Proactive Sugggestion&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1450" width="116.75" height="79.99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
