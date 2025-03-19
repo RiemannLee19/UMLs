@@ -355,9 +355,6 @@
             <mxPoint x="440" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1941" value="Define virtual axis&lt;div&gt;Dynamically change the cam switch according to customer&#39;s input&lt;/div&gt;&lt;div&gt;For delays, we can compensate actor&#39;s signal&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="640" width="400" height="100" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
