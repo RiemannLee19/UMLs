@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1801" value="Centralized Cam Switch System" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1801" value="Centralized Cam Switch System&lt;br&gt;(Central Control Cabinet)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="320" width="200" height="156" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1802" value="Cam Switch 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yubhM1SOayhGXeNkUcZc-1801">
@@ -52,6 +52,36 @@
         <mxCell id="yubhM1SOayhGXeNkUcZc-1815" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1814" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="476" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1816" value="Device 1&lt;br&gt;&lt;br&gt;Cam Switch 1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1817" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1818" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="yubhM1SOayhGXeNkUcZc-1817" parent="1" target="yubhM1SOayhGXeNkUcZc-1816">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="660" as="targetPoint" />
+            <mxPoint x="720" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1821" value="Device 2&lt;br&gt;&lt;br&gt;Cam Switch 2" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1822" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.503;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yubhM1SOayhGXeNkUcZc-1817" target="yubhM1SOayhGXeNkUcZc-1821">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="261.67" as="targetPoint" />
+            <mxPoint x="810" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1823" value="Device 1&lt;br&gt;&lt;br&gt;Cam Switch 1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1824" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.75;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1823" source="yubhM1SOayhGXeNkUcZc-1817">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="660" as="targetPoint" />
+            <mxPoint x="840" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
