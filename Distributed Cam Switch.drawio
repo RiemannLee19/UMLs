@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.7">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yubhM1SOayhGXeNkUcZc-1801" value="Centralized Cam Switch System&lt;br&gt;(Central Control Cabinet)&lt;br&gt;Motion Controller" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="300" width="200" height="180" as="geometry" />
+          <mxGeometry x="190" y="480" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1802" value="Cam Switch 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry y="50" width="200" height="26" as="geometry" />
@@ -23,138 +23,138 @@
           <mxGeometry y="154" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1807" value="Output&lt;br&gt;Device 1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="80" y="530" width="70" height="30" as="geometry" />
+          <mxGeometry x="80" y="710" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1808" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="yubhM1SOayhGXeNkUcZc-1807" parent="1" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="490" as="sourcePoint" />
+            <mxPoint x="370" y="670" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1810" value="Output&lt;br&gt;Device 2" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="200" y="530" width="70" height="30" as="geometry" />
+          <mxGeometry x="200" y="710" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1811" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="yubhM1SOayhGXeNkUcZc-1810" parent="1" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="495" as="sourcePoint" />
+            <mxPoint x="220" y="675" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1812" value="Output&lt;br&gt;Device 3" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="320" y="530" width="70" height="30" as="geometry" />
+          <mxGeometry x="320" y="710" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1813" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1812" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="476" as="sourcePoint" />
+            <mxPoint x="540" y="656" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1814" value="Output&lt;br&gt;Device 4" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="440" y="530" width="70" height="30" as="geometry" />
+          <mxGeometry x="440" y="710" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1815" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1814" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="476" as="sourcePoint" />
+            <mxPoint x="660" y="656" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1816" value="Output&lt;br&gt;Device&amp;nbsp; 1&lt;br&gt;Cam Switch 1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="590" y="440" width="100" height="50" as="geometry" />
+          <mxGeometry x="590" y="640" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1817" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="560" y="390" width="520" height="10" as="geometry" />
+          <mxGeometry x="560" y="590" width="520" height="10" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1818" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.154;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="yubhM1SOayhGXeNkUcZc-1817" parent="1" target="yubhM1SOayhGXeNkUcZc-1816">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="640" as="targetPoint" />
-            <mxPoint x="670" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="840" as="targetPoint" />
+            <mxPoint x="670" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1821" value="Input&lt;br&gt;Device 1&lt;br&gt;Cam Switch 1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="590" y="280" width="100" height="50" as="geometry" />
+          <mxGeometry x="590" y="480" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1823" value="Ouptut &lt;br&gt;Device 2&lt;br&gt;Cam Switch 2" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="710" y="440" width="100" height="50" as="geometry" />
+          <mxGeometry x="710" y="640" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1824" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.385;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1823" source="yubhM1SOayhGXeNkUcZc-1817">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="640" as="targetPoint" />
-            <mxPoint x="760" y="420" as="sourcePoint" />
+            <mxPoint x="710" y="840" as="targetPoint" />
+            <mxPoint x="760" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1826" value="Input&lt;br&gt;Device 1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="90" y="210" width="70" height="30" as="geometry" />
+          <mxGeometry x="90" y="390" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1827" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1826" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1828" value="Input&lt;br&gt;Device 2" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="210" y="210" width="70" height="30" as="geometry" />
+          <mxGeometry x="210" y="390" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1829" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1828" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1830" value="Input&lt;br&gt;Device 3" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="330" y="210" width="70" height="30" as="geometry" />
+          <mxGeometry x="330" y="390" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1831" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1830" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1832" value="Input&lt;br&gt;Device 4" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="450" y="210" width="70" height="30" as="geometry" />
+          <mxGeometry x="450" y="390" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1833" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1" target="yubhM1SOayhGXeNkUcZc-1832" source="yubhM1SOayhGXeNkUcZc-1801">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1834" value="Output &lt;br&gt;Device 3&lt;br&gt;Cam Switch 3" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="830" y="440" width="100" height="50" as="geometry" />
+          <mxGeometry x="830" y="640" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1835" value="Output &lt;br&gt;Device 4&lt;br&gt;Cam Switch 4" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="950" y="440" width="100" height="50" as="geometry" />
+          <mxGeometry x="950" y="640" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1839" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.615;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yubhM1SOayhGXeNkUcZc-1817" target="yubhM1SOayhGXeNkUcZc-1834">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="866" y="450" as="targetPoint" />
-            <mxPoint x="866" y="406" as="sourcePoint" />
+            <mxPoint x="866" y="650" as="targetPoint" />
+            <mxPoint x="866" y="606" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1840" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.845;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yubhM1SOayhGXeNkUcZc-1817" target="yubhM1SOayhGXeNkUcZc-1835">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="986" y="450" as="targetPoint" />
-            <mxPoint x="986" y="404" as="sourcePoint" />
+            <mxPoint x="986" y="650" as="targetPoint" />
+            <mxPoint x="986" y="604" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1841" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yubhM1SOayhGXeNkUcZc-1821">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="398" as="targetPoint" />
+            <mxPoint x="640" y="598" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1842" value="Input&lt;br&gt;Device 2&lt;br&gt;Cam Switch 2" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="710" y="280" width="100" height="50" as="geometry" />
+          <mxGeometry x="710" y="480" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1843" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yubhM1SOayhGXeNkUcZc-1842">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="398" as="targetPoint" />
+            <mxPoint x="760" y="598" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1844" value="Input&lt;br&gt;Device 3&lt;br&gt;Cam Switch 3" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="830" y="280" width="100" height="50" as="geometry" />
+          <mxGeometry x="830" y="480" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1845" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yubhM1SOayhGXeNkUcZc-1844">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="880" y="398" as="targetPoint" />
+            <mxPoint x="880" y="598" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1846" value="Input&lt;br&gt;Device 4&lt;br&gt;Cam Switch 4" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="950" y="280" width="100" height="50" as="geometry" />
+          <mxGeometry x="950" y="480" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1847" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yubhM1SOayhGXeNkUcZc-1846">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000" y="398" as="targetPoint" />
+            <mxPoint x="1000" y="598" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
