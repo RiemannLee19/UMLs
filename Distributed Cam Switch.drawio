@@ -4,23 +4,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1801" value="Centralized Cam Switch System&lt;br&gt;(Central Control Cabinet)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="320" width="200" height="156" as="geometry" />
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1801" value="Centralized Cam Switch System&lt;br&gt;(Central Control Cabinet)&lt;br&gt;Motion Controller" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1802" value="Cam Switch 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yubhM1SOayhGXeNkUcZc-1801">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+          <mxGeometry y="50" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1803" value="Cam Switch&amp;nbsp;2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yubhM1SOayhGXeNkUcZc-1801">
-          <mxGeometry y="52" width="200" height="26" as="geometry" />
+          <mxGeometry y="76" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1804" value="Cam Switch&amp;nbsp;3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yubhM1SOayhGXeNkUcZc-1801">
-          <mxGeometry y="78" width="200" height="26" as="geometry" />
+          <mxGeometry y="102" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1805" value="Cam Switch&amp;nbsp;4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yubhM1SOayhGXeNkUcZc-1801">
-          <mxGeometry y="104" width="200" height="26" as="geometry" />
+          <mxGeometry y="128" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1806" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yubhM1SOayhGXeNkUcZc-1801">
-          <mxGeometry y="130" width="200" height="26" as="geometry" />
+          <mxGeometry y="154" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1807" value="Device 1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
           <mxGeometry x="80" y="530" width="70" height="30" as="geometry" />
