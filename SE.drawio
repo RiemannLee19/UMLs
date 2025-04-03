@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Seite-1" id="YpslYr3ygntDOcOYtWfc">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tbhEzkc6CAuonSA8ict4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tbhEzkc6CAuonSA8ict4-1" target="tbhEzkc6CAuonSA8ict4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-1" value="Food" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbhEzkc6CAuonSA8ict4-2" target="tbhEzkc6CAuonSA8ict4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-2" value="Oil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tbhEzkc6CAuonSA8ict4-3" target="tbhEzkc6CAuonSA8ict4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-3" value="Battery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-5" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-7" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="160" y="30" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-11" value="Country A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="tbhEzkc6CAuonSA8ict4-7">
+          <mxGeometry x="-0.3" y="-1" relative="1" as="geometry">
+            <mxPoint y="-112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-8" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="240" y="30" as="sourcePoint" />
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-13" value="Country C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="tbhEzkc6CAuonSA8ict4-8">
+          <mxGeometry x="0.3171" relative="1" as="geometry">
+            <mxPoint y="-201" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-9" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="200" y="30" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-12" value="Country B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="tbhEzkc6CAuonSA8ict4-9">
+          <mxGeometry x="-0.6771" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-57" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-14" value="Segment&lt;br&gt;Food" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-15" value="Segment&lt;br&gt;Oil" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhEzkc6CAuonSA8ict4-16" value="Segment Battery" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
