@@ -544,8 +544,8 @@
         <mxCell id="pIqreqhXc2t8eF8DuM6R-131" value="Action list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="215.5" y="683" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIqreqhXc2t8eF8DuM6R-132" value="Observation: container lenght, filling height" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="115" y="440" width="250" height="30" as="geometry" />
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-132" value="Observation: product coming? when does it come?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="440" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-133" value="Reward" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220.5" y="493" width="60" height="30" as="geometry" />
@@ -584,7 +584,7 @@
             <mxPoint x="385" y="653" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pIqreqhXc2t8eF8DuM6R-140" value="Agent List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-140" value="Agent List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="513" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-141" value="Agent 1: when to push" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pIqreqhXc2t8eF8DuM6R-140">
@@ -593,10 +593,10 @@
         <mxCell id="pIqreqhXc2t8eF8DuM6R-142" value="Agent 2: when to push" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pIqreqhXc2t8eF8DuM6R-140">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIqreqhXc2t8eF8DuM6R-144" value="Agent 3: MP for roller 1" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pIqreqhXc2t8eF8DuM6R-140">
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-144" value="Agent 3: MP for roller 1" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pIqreqhXc2t8eF8DuM6R-140">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIqreqhXc2t8eF8DuM6R-143" value="Agent 4: MP for roller 2" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pIqreqhXc2t8eF8DuM6R-140">
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-143" value="Agent 4: MP for roller 2" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pIqreqhXc2t8eF8DuM6R-140">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
