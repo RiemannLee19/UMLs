@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="815" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="475" dy="248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -571,8 +571,8 @@
             <mxPoint x="110" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pIqreqhXc2t8eF8DuM6R-136" value="Environment:&lt;div&gt;Machine Expert Twin&lt;div&gt;(Mock Simulation)&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="350" y="560" width="120" height="80" as="geometry" />
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-136" value="Multi Agent Environment:&lt;div&gt;Machine Expert Twin&lt;div&gt;(Mock Simulation)&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="540" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pIqreqhXc2t8eF8DuM6R-140" target="pIqreqhXc2t8eF8DuM6R-136">
           <mxGeometry relative="1" as="geometry">
