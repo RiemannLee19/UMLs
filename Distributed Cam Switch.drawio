@@ -541,11 +541,11 @@
         <mxCell id="pIqreqhXc2t8eF8DuM6R-128" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;system&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;starts&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="575" y="193" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pIqreqhXc2t8eF8DuM6R-131" value="Action list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="245.5" y="650" width="70" height="30" as="geometry" />
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-131" value="Actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250.5" y="650" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIqreqhXc2t8eF8DuM6R-132" value="Observation: product coming? when does it come?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="135.5" y="450" width="290" height="30" as="geometry" />
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-132" value="Observations: product coming? when does it come?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130.5" y="450" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-133" value="Reward" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="493" width="60" height="30" as="geometry" />
