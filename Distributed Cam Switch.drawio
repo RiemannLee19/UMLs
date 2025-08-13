@@ -66,7 +66,7 @@
             <mxPoint x="660" y="459" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1821" value="Input&lt;br&gt;Device 1&lt;br&gt;Cam Switch 1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1821" value="Observation 1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="580" y="329" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1823" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Pusher 2" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -78,7 +78,7 @@
             <mxPoint x="750" y="469" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1826" value="Input&lt;br&gt;Device 1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1826" value="Product 1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="239" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1827" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="1" source="yubhM1SOayhGXeNkUcZc-1801" target="yubhM1SOayhGXeNkUcZc-1826" edge="1">
@@ -86,7 +86,7 @@
             <mxPoint x="290" y="189" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1828" value="Input&lt;br&gt;Device 2" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1828" value="Time 1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="200" y="239" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1829" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="1" source="yubhM1SOayhGXeNkUcZc-1801" target="yubhM1SOayhGXeNkUcZc-1828" edge="1">
@@ -94,7 +94,7 @@
             <mxPoint x="290" y="189" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1830" value="Input&lt;br&gt;Device 3" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1830" value="Product 2" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="320" y="239" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1831" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="1" source="yubhM1SOayhGXeNkUcZc-1801" target="yubhM1SOayhGXeNkUcZc-1830" edge="1">
@@ -102,7 +102,7 @@
             <mxPoint x="290" y="189" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1832" value="Input&lt;br&gt;Device 4" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1832" value="Time 2" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="239" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1833" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="1" source="yubhM1SOayhGXeNkUcZc-1801" target="yubhM1SOayhGXeNkUcZc-1832" edge="1">
