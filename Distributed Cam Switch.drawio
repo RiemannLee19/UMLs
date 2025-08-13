@@ -542,50 +542,50 @@
           <mxGeometry x="575" y="193" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-131" value="Action list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="215.5" y="650" width="70" height="30" as="geometry" />
+          <mxGeometry x="245.5" y="650" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-132" value="Observation: product coming? when does it come?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="105.5" y="450" width="290" height="30" as="geometry" />
+          <mxGeometry x="135.5" y="450" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-133" value="Reward" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="493" width="60" height="30" as="geometry" />
+          <mxGeometry x="250" y="493" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.636;entryY=0;entryDx=0;entryDy=0;exitX=0.333;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="pIqreqhXc2t8eF8DuM6R-136" target="pIqreqhXc2t8eF8DuM6R-140">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="360" y="500" />
-              <mxPoint x="129" y="500" />
+              <mxPoint x="390" y="500" />
+              <mxPoint x="159" y="500" />
             </Array>
-            <mxPoint x="344.3499999999999" y="494.35" as="sourcePoint" />
-            <mxPoint x="129" y="481" as="targetPoint" />
+            <mxPoint x="374.3499999999999" y="494.35" as="sourcePoint" />
+            <mxPoint x="159" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.667;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.291;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pIqreqhXc2t8eF8DuM6R-136" target="pIqreqhXc2t8eF8DuM6R-140">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="480" />
-              <mxPoint x="81" y="480" />
-              <mxPoint x="81" y="503" />
+              <mxPoint x="430" y="480" />
+              <mxPoint x="111" y="480" />
+              <mxPoint x="111" y="503" />
             </Array>
-            <mxPoint x="436.64999999999986" y="494.35" as="sourcePoint" />
-            <mxPoint x="80" y="481" as="targetPoint" />
+            <mxPoint x="466.64999999999986" y="494.35" as="sourcePoint" />
+            <mxPoint x="110" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-136" value="Environment:&lt;div&gt;Machine Expert Twin&lt;div&gt;(Mock Simulation)&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pIqreqhXc2t8eF8DuM6R-140" target="pIqreqhXc2t8eF8DuM6R-136">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="680" />
-              <mxPoint x="380" y="680" />
+              <mxPoint x="140" y="680" />
+              <mxPoint x="410" y="680" />
             </Array>
-            <mxPoint x="115" y="683" as="sourcePoint" />
-            <mxPoint x="385" y="653" as="targetPoint" />
+            <mxPoint x="145" y="683" as="sourcePoint" />
+            <mxPoint x="415" y="653" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-140" value="Agent List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="140" height="140" as="geometry" />
+          <mxGeometry x="70" y="520" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="pIqreqhXc2t8eF8DuM6R-141" value="Agent 1: when to push" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pIqreqhXc2t8eF8DuM6R-140">
           <mxGeometry y="20" width="140" height="30" as="geometry" />
