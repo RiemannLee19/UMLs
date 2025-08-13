@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1801" value="Centralized Cam Switch System&lt;br&gt;(Central Control Cabinet)&lt;br&gt;Motion Controller" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+        <mxCell id="yubhM1SOayhGXeNkUcZc-1801" value="Multi-Agent RL Controller" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="329" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="yubhM1SOayhGXeNkUcZc-1802" value="Cam Switch 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yubhM1SOayhGXeNkUcZc-1801" vertex="1">
@@ -355,8 +355,8 @@
             <mxPoint x="440" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yubhM1SOayhGXeNkUcZc-1943" value="fieldbus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="257" y="277" width="60" height="30" as="geometry" />
+        <mxCell id="pIqreqhXc2t8eF8DuM6R-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
